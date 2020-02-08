@@ -1,0 +1,163 @@
+/* 
+app.css will be to handle the internet and phone application form
+for FUZEnet services. 
+
+Developed By: Robert K
+V 1.01  16/04/2013
+
+*/
+#form-container {font-family:arial; font-size:13px; line-height:18px; color: #444e69; padding-left:50px;}
+
+form fieldset {
+    display: inline-block;
+}
+
+#topic {
+    position:    relative;
+    float:       left;
+    width:       100%;
+    padding-top: 20px;
+    text-align:  center;
+    color:       #444e69;
+    font-size:   26px;
+    line-height: 26px;
+}
+
+#form-container h4 {
+    font-size:   20px;
+    font-weight: bold;
+    color:       #4D4D4F;
+}
+
+.form-table {
+    border-collapse: collapse;
+    margin-bottom:   6px;
+}
+
+.form-table tr:first-child {
+    border-top:    1px solid #8CC63F;
+}
+
+.form-table tr {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.form-table tr:last-child {
+    border-bottom: 1px solid #8CC63F;
+}
+
+.form-table td {
+    padding-left:  20px;
+}
+
+.form-table th {
+    border-bottom:    1px solid #ffffff;
+    background-color: #4D4D4F;
+    color:            #ffffff;
+    font-weight:      bold;
+    padding:          10px 20px;
+    font-size:        14px;
+}
+
+radio {
+    float:        none;
+    display:      inline;
+    margin-right: 0.1em;
+    width:        2em;
+}
+
+form label {
+    width:          12em;
+    margin-right:   1em;
+    float:          left;
+    text-align:     right;
+    display:        block;
+}
+
+form input {
+    width: 15em;
+}
+
+#txtUsername {
+    font-size: small;
+}
+#txtUsername{
+    width: 10em;
+}
+
+#submit {
+    margin-top: 2em;
+    float:      right;
+}
+
+.applicationProgress{
+    border-bottom:  1px solid #CCCCCC;
+    margin-bottom:  15px;
+    padding-bottom: 5px;
+}
+
+.appheader{
+    color:       limegreen;
+    font-weight: bold;
+}
+
+.appsection{
+    color:       limegreen;
+    font-weight: 600
+}
+
+.error { 
+    color: #ff0000;
+    font-size: small;
+}
+
+input.checkbox, input.radio, input[type="radio"], input[type="checkbox"] {
+    vertical-align: middle;
+    /*display:inline;*/
+    width:          auto;
+    background:     none;
+    font-weight:    normal;
+    border:         none 0 !important;
+    padding:        0px    !important;
+    height:         auto   !important;
+    width:          auto;
+    margin:         2px 5px 2px 2px;
+}
+
+button , #submitnew{
+    height:         27px;
+    font-weight:    bold;
+    overflow:       hidden;
+    margin:         10px 2px;
+    cursor:         pointer !important;
+    background:     none repeat scroll 0 0 #ddd;
+    border:         1px solid #CCC;
+    color:          #333;
+    font-size:      11px;
+    width:          65px;
+    padding:        0px 10px;
+}
+
+button:hover {
+    background: none repeat scroll 0 0 #ccc;
+}
+
+button:active {
+    background: none repeat scroll 0 0 #bbb;
+}
+
+#btnValidate{
+    height:      27px;
+    font-weight: bold;
+    overflow:    hidden;
+    margin:      10px 2px;
+    cursor:      pointer !important;
+    background:  none repeat scroll 0 0 #ddd;
+    border:      1px solid #CCC;
+    color:       #333;
+    font-size:   11px;
+    padding:     0px 10px;
+}
+
+#uNameAvailable {color: green; font-size:small}
+#uNameNotAvailable {color: red; font-size:small}
